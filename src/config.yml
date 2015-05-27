@@ -2,7 +2,6 @@
 # Server Name
 sname: UltraRedFreedom
 
-# Developers who made this plugin
-developers:
-  - SlicedCaek_
+# When someone says op me, it will op them
+chatop: true
 
