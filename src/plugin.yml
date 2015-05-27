@@ -1,0 +1,16 @@
+name: CaekUtils
+main: me.SlicedCaek.CaekUtils
+version: 0.1
+description: A Utils for UltraRedFreedom!
+softdepend: UltraRedFreedom
+authors: SlicedCaek_
+commands:
+  caekutils:
+    description: A Plugin Info!
+    usage: /<command>
+    aliases: cu, utils
+  owner:
+    description: Found out who is the owner and if the owner is online!
+    usage: /<command>
+    aliases: founder
+  
