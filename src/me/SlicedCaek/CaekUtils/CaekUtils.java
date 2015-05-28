@@ -18,7 +18,7 @@ public class CaekUtils extends BukkitPlugin {
     public Logger logger;
     public YamlConfig config;
     public BukkitCommandHandler handler;
-    public static final String CHAT_BOT = ChatColor.WHITE + "[" + ChatColor.GREEN + "CaekUtils Bot" + CatColor.WHITE + "] ";
+    public static final String CHAT_BOT = ChatColor.WHITE + "[" + ChatColor.GREEN + "CaekUtils Bot" + ChatColor.WHITE + "] ";
     public static final String ERROR = ChatColor.WHITE + "[" + ChatColor.RED + "ERROR" + ChatColor.WHITE + "] ";
     public static Server server;
     
