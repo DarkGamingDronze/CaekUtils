@@ -1,4 +1,4 @@
-package me.SlicedCaek.CaekUtils.Command;
+package me.SlicedCaek.CaekUtils.Commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
