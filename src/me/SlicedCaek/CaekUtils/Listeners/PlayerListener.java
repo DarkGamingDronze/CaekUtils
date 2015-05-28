@@ -43,10 +43,10 @@ public class PlayerListener implements Listener
         String command = event.getMessage();
         final Player player = event.getPlayer();
         command = command.toLowerCase().trim();
-        if (command.contains("enderdragon") || command.contains("ender_dragon") || command.contains("wither"))
+        if (command.contains("enderdragon") || command.contains("ender_dragon") || command.contains("wither") || command.contains("ghast"))
         {
             event.setCancelled(true)
-            player.sendMessage(CaekUtils.CHAT_BOT + "I am sorry but you have no right to spawn enderdragons/withers!");
+            player.sendMessage(CaekUtils.CHAT_BOT + "I am sorry but you have no right to spawn enderdragons/withers/ghast!");
         }
     }
 }
